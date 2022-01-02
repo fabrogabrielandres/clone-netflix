@@ -8,39 +8,44 @@ export const SectionOne = () => {
 		<Grid
 			bgGradient={'linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%)'}
 			w="100%"
-			h="100vh"
+			h={"100vh"}
 		>
-			<Img w={'100%'} h="100%" position={'absolute'} src={image} zIndex={-1} objectFit={'cover'} />
+			<Img w={'100%'} h="100%" position={'absolute'} top={"-70px"} src={image} zIndex={-1} objectFit={'cover'} />
 			<Header />
 			<Flex flexDir={'column'}>
-				<Text fontWeight={'bold'} textAlign={'center'} fontSize={'50px'} color={'white'}>
+				<Text fontWeight={'bold'} textAlign={'center'} lineHeight={{base:"30.8px",sm:"55px"}} fontSize={{base:"28px",sm:'50px'}} color={'white'}>
 					Unlimited movies, TV
 					<br />
 					shows, and more.
 				</Text>
-				<Text textAlign={'center'} fontSize={'26px'} color={'white'}>
+				<Text textAlign={'center'} lineHeight={"normal"} fontSize={{base:"18px",sm:'26px'}} color={'white'}>
 					Watch anywhere. Cancel anytime.
 				</Text>
-
-				<Text fontWeight={'bold'} mb={5} textAlign={'center'} fontSize={'19px'} color={'white'}>
+				<Text fontWeight={'bold'} mb={5} textAlign={'center'} lineHeight={"normal"} fontSize={{base:"18px" ,sm:'19.2px'}} color={'white'}>
 					Ready to watch? Enter your email to create or restart your membership.
 				</Text>
-				<Flex h="60px" m="0 auto" bgColor={'primary.100'} w={'50%'} justify={'center'} alignContent={'center'}>
-					<Input h={'100%'} bgColor={'white'} placeholder="Email address" borderRadius={'0px'} />
+				<Flex m="0 auto" flexDir={{base:"column",md:"row"}} flexWrap={'wrap'} justifyContent={{base:"center"}} alignItems={{base:"center"}} >
+					<Input
+						w={{ base: '90vw', sm: '450px' }}
+						h={{ base: '60px', md: '60px' }}
+						bgColor={'white'}
+						placeholder="Email address"
+						borderRadius={'0px'}
+					/>
+
 					<Button
 						_hover={{
 							bg: 'primary.100'
 						}}
-						mr="16px"
-						ml="16px"
-						h="100%"
-						w="214px"
-						fontSize={'26px'}
+						mt={{base:"4px", md:"0px"}}
+						h={{ base: '40px', md: '60px' }}
+						w={{ base: '131px', md: '214px' }}
+						fontSize={{ base: '16px', md: '26px' }}
 						borderRadius={'0px'}
 						bgColor={'primary.100'}
 						color={'white'}
 					>{`Get Started >`}</Button>
-				</Flex>
+				</Flex>s
 			</Flex>
 		</Grid>
 	);

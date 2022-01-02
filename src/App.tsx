@@ -1,13 +1,13 @@
 import {  ChakraProvider } from '@chakra-ui/react';
 import { SectionOne } from './components/SectionOne/SectionOne';
-import { SectionTree } from './components/SectionTree/SectionTree';
+import { SectionTwo } from './components/SectionTwo/SectionTwo';
 // import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { theme } from './theme';
 
 export const App = () => (
 	<ChakraProvider theme={theme}>
 		<SectionOne />
-		<SectionTree />
+		<SectionTwo/>
 	</ChakraProvider>
 );
 
