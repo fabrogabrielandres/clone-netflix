@@ -1,0 +1,32 @@
+.tvv {
+	z-index: 1;
+}
+
+.videoo {
+	z-index: -1;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translateX(49%) translateY(-70%) scale(0.64);
+}
+
+@media screen and (max-width: 950px) {
+    .videoo {
+        /* border: 30px solid red; */
+		transform: translateX(50%) translateY(-70%) scale(0.7);
+	}
+}
+
+@media screen and (max-width: 750px) {
+    .videoo {
+        /* border: 30px solid yellow; */
+		transform: translateX(49%) translateY(-70%) scale(0.68);
+	}
+}
+
+@media screen and (max-width: 600px) {
+    .videoo {
+        /* border: 30px solid yellow; */
+		transform: translateX(49%) translateY(-70%) scale(0.6);
+	}
+}

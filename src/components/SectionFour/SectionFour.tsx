@@ -1,9 +1,10 @@
 import { Img, Flex, Text, Box } from '@chakra-ui/react';
 import React from 'react';
-import tv from '../../assets/tv.png';
-import video from '../../assets/videotv.m4v';
-import './styled.css';
-export const SectionTwo = () => {
+import tv from '../../assets/imagesection4.png';
+import video from '../../assets/video4.m4v';
+import "./styled.css"
+
+export const SectionFour = () => {
 	return (
 		<Flex 
 		bgColor={'black'}
@@ -23,7 +24,7 @@ export const SectionTwo = () => {
 					fontSize={{ base: '26px', sm: '40px', md: '50px' }}
 					lineHeight={{ base: '28.6px', sm: '44px', md: '55px' }}
 				>
-					Enjoy on your Tv.
+					Watch everywhere.
 				</Text>
 				<Text
 					mx={'10%'}
@@ -32,13 +33,13 @@ export const SectionTwo = () => {
 					lineHeight={'normal'}
 					textAlign={{ base: 'center', md: 'start' }}
 				>
-					Watch on Smart TVs, Playstation, XBox, Chromecast, Apple Tv, Blu-ray players, and more.
+				Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.
 				</Text>
 			</Flex>
 			<Flex justifyContent={'center'} align={'center'} position={'relative'}>
 				<Box className="tv">
-					<Img src={tv} alt="tv" />
-						<video src={video} className="video" autoPlay loop muted />
+					<Img src={tv} alt="tvv" />
+						<video src={video} className="videoo" autoPlay loop muted />
 					
 				</Box>
 			</Flex>
