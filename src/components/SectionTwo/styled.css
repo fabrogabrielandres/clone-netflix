@@ -1,0 +1,18 @@
+.tv {
+	z-index: 1;
+}
+
+.video {
+	z-index: -1;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translateX(50%) translateY(-50%) scale(0.88);
+}
+
+@media screen and (max-width: 950px) {
+	.video {
+		transform: translateX(50%) translateY(-50%) scale(1);
+
+	}
+}
