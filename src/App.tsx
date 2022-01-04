@@ -1,6 +1,8 @@
 import { ChakraProvider } from '@chakra-ui/react';
+import { SectionFive } from './components/SectionFive/SectionFive';
 import { SectionFour } from './components/SectionFour/SectionFour';
 import { SectionOne } from './components/SectionOne/SectionOne';
+import { SectionSix } from './components/SectionSix/SectionSix';
 import { SectionThree } from './components/SectionThree/SectionThree';
 import { SectionTwo } from './components/SectionTwo/SectionTwo';
 // import { ColorModeSwitcher } from "./ColorModeSwitcher"
@@ -12,6 +14,8 @@ export const App = () => (
 		<SectionTwo />
 		<SectionThree />
 		<SectionFour />
+		<SectionFive/>
+		<SectionSix/>
 	</ChakraProvider>
 );
 
