@@ -1,7 +1,10 @@
+.chakra-accordion {
+    border-style: none;
+}
+
+
+
 .iconAdd {
 	transform: rotate(45deg);
 }
 
-.chakra-accordion {
-    border-style: none;
-}

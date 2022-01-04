@@ -1,0 +1,39 @@
+
+.footer {
+    margin: 3em 0 0;
+    padding: 8vh 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.4em solid var(--gris);
+    color: var(--gris-f);
+  }
+  .footer__center {
+    width: 80%;
+    max-width: 55em;
+  }
+  .footer__fila {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+  }
+  .footer__p {
+    margin: 0 0 1.5em;
+    font-size: 1em;
+  }
+  .footer__ul {
+    margin: 0 0 2em;
+    font-size: 0.8em;
+  }
+
+  
+.footer__select {
+    max-width: 150px;
+    margin: 0 0 1em;
+  }
+  .footer .brand {
+    margin: 2.8em 0 0;
+    font-size: 0.8em;
+  }

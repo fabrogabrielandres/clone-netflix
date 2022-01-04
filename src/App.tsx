@@ -2,6 +2,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 import { SectionFive } from './components/SectionFive/SectionFive';
 import { SectionFour } from './components/SectionFour/SectionFour';
 import { SectionOne } from './components/SectionOne/SectionOne';
+import { SectionSeven } from './components/SectionSeven/SectionSeven';
 import { SectionSix } from './components/SectionSix/SectionSix';
 import { SectionThree } from './components/SectionThree/SectionThree';
 import { SectionTwo } from './components/SectionTwo/SectionTwo';
@@ -16,6 +17,8 @@ export const App = () => (
 		<SectionFour />
 		<SectionFive/>
 		<SectionSix/>
+		<SectionSeven/>
+		
 	</ChakraProvider>
 );
 

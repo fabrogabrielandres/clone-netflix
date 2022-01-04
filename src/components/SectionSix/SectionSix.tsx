@@ -36,6 +36,8 @@ export const SectionSix = () => {
 										<AccordionButton
 											onClick={() => {
 												setAddClass(!addClass);
+												console.log(`iconAdd${idx}`);
+												
 											}}
 										>
 											<Flex
@@ -49,7 +51,7 @@ export const SectionSix = () => {
 											</Flex>
 
 											<AddIcon
-												className={addClass ? 'iconAdd' : ''}
+												className={addClass ? `iconAdd` : ''}
 												boxSize={{ base: '20px', sm: '25px', md: '30px' }}
 											/>
 										</AccordionButton>
