@@ -1,7 +1,7 @@
-.iconAdd{
-    transform: rotate(45deg);    
+.iconAdd {
+	transform: rotate(45deg);
 }
 
-.chakra-accordion__button .css-1ygl3x{
-    background-color: red;
+.chakra-accordion {
+    border-style: none;
 }
