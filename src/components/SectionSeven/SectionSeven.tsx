@@ -46,7 +46,7 @@ export const SectionSeven = () => {
 							);
 						})}
 					</Flex>
-					<LanguajeButton dimension={dimension} />
+					<LanguajeButton dimension={dimension}/>
 
 					<Text color="#757575" mb={"33px"} mt={"24px"}>Netflix Argentina</Text>
 				</Flex>

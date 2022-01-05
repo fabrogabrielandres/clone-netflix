@@ -6,7 +6,7 @@ import { CircleIcon } from '../mundoIcon/mundoIcon';
 
 interface Props {
 	dimension: Dimension;
-	color?:string
+	color?: string;
 }
 
 export interface Dimension {
@@ -23,9 +23,7 @@ export interface Alto {
 	sm: string;
 }
 
-
-
-export const LanguajeButton = ({ dimension }: Props) => {
+export const LanguajeButton = ({color ,dimension }: Props) => {
 	let { w, h } = dimension;
 
 	return (
@@ -39,7 +37,7 @@ export const LanguajeButton = ({ dimension }: Props) => {
 			position={'relative'}
 		>
 			<CircleIcon className="imagen" position={'absolute'} src={mundo} w={{ base: '20%', sm: '20%' }} />
-			<Select color={ 'white'} className="css-c76kus" w={{ ...w }} h={{ ...h }}>
+			<Select color={color ? color : '#757575'} className="css-c76kus" w={{ ...w }} h={{ ...h }}>
 				<option value="Español" style={{ backgroundColor: '#333333' }}>
 					Español
 				</option>
