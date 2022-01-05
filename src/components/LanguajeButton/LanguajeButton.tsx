@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Img, Select } from '@chakra-ui/react';
+import { Flex,  Select } from '@chakra-ui/react';
 import './styled.css';
 import mundo from '../../assets/mundo.svg';
 import { CircleIcon } from '../mundoIcon/mundoIcon';
