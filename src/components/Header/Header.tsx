@@ -1,8 +1,8 @@
-import { Box, Button, Flex, HStack, Img, Select } from '@chakra-ui/react';
-import React, { useState } from 'react';
+import { Box, Button, Flex, HStack, Img } from '@chakra-ui/react';
+import React  from 'react';
 import logo from '../../assets/logo.svg';
 import { Dimension, LanguajeButton } from '../LanguajeButton/LanguajeButton';
-import { CircleIcon } from '../mundoIcon/mundoIcon';
+
 
 let dimension: Dimension = {
 	w: { base: '110px', sm: '128px' },
@@ -10,7 +10,6 @@ let dimension: Dimension = {
 };
 
 export const Header = () => {
-	const [ lenguaje, setLenguaje ] = useState<string>('English');
 	return (
 		<HStack
 			w={'100%'}

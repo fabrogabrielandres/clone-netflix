@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex, Text, Select, Img } from '@chakra-ui/react';
+import { Box, Flex, Text,  } from '@chakra-ui/react';
 import { Dimension, LanguajeButton } from '../LanguajeButton/LanguajeButton';
 export const SectionSeven = () => {
 	let arr = [
