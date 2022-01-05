@@ -1,0 +1,11 @@
+.imagen {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	transform: translateY(-50%) translateX(20%);
+}
+
+.chakra-select__wrapper .css-c76kus {
+	padding-left: 25%;
+	border-color: #757575;
+}
